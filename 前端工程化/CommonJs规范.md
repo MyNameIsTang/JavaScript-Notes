@@ -34,7 +34,7 @@
 
 3. require 的内部处理流程
 
-- require 命令时 CommonJs 规范之中，用来加载其他模块的命令。它其实不是一个全局命令，而是指向当前模块的 module.require 命令，而后者有调用 Node 的内部命令 Module.\_load。
+- require 命令时 CommonJs 规范之中，用来加载其他模块的命令。它其实不是一个全局命令，而是指向当前模块的 module.require 命令，而后者有调用 Node 的内部命令 Module._load。
 
 ```
   Module._load = function(request, parent, isMain) {
