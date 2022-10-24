@@ -47,7 +47,7 @@
     // data：在pitch和loader之间交互数据
     loader.pitch = function (remainingRequest, precedingRequest, data) {
       // pitch loader
-      // 如果return非undefined的值，会带来熔断效果（）
+      // 如果return非undefined的值，会带来熔断效果（即前置loader将不会执行）
     }
   ```
 
